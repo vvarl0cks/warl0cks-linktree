@@ -1,2 +1,2 @@
 # bio-link
-Super Simple Bio like Linktree with HTML + CSS + JS
+Simple Linktree Clone with HTML + CSS + JS
