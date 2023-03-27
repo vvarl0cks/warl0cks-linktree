@@ -1,8 +1,11 @@
 body {
     margin: 0;
     padding: 0;
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    /* Animated Gradient Background Start - sigit.co.uk */
+    background: linear-gradient(286deg,#b7bf17,#f9e099,#d556ce,#ee8114);
+    background-size: 240% 240%;
+    animation: gradient-animation 12s ease infinite;
+    /* Animated Gradient Background End - sigit.co.uk */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -10,6 +13,22 @@ body {
     font-family: Verdana, Tahoma, sans-serif;
     
 }
+
+.gradient-background {
+
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 
 header {
     width: 95%;
