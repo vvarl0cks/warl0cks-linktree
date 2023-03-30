@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     /* Animated Gradient Background Start - sigit.co.uk */
-    background: linear-gradient(286deg,#b7bf17,#f9e099,#d556ce,#ee8114);
+    background: linear-gradient(286deg,#F5BFD7,#CAEFD7,#facaf7,#faca9b);
     background-size: 240% 240%;
     animation: gradient-animation 12s ease infinite;
     /* Animated Gradient Background End - sigit.co.uk */
